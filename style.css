@@ -112,3 +112,29 @@ outline: none;
 border: 0;
 }
 /* -----------Navbar-End------------- */
+.container{
+  padding: 20px 6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+
+ /*----------Left-sidebar------------- */
+
+ .left-sidebar{
+  flex-basis: 25%;
+  align-self: flex-start;
+ }
+
+  /*----------Right-sidebar------------- */
+
+ .right-sidebar{
+  flex-basis: 25%;
+  align-self: flex-start;
+ }
+  /*----------Main-sidebar------------- */
+
+ .main-sidebar{
+  flex-basis: 47%;
+  
+ }
