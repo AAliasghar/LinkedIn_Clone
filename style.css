@@ -123,7 +123,7 @@ a {
 .left-sidebar {
   flex-basis: 25%;
   align-self: flex-start;
-  border: #41db51 solid 2px;
+  /* border: #41db51 solid 2px; */
 }
 
 .sidebar-profile-box {
