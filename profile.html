@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Job Connect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-----------Navbar-left--------------->
+    <div class="navbar-left">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png">
+      </a>
+
+      <div class="search-box">
+        <img src="images/search.png">
+        <input type="text" placeholder="Search">
+      </div>
+    </div>
+    <!-----------Navbar-Center--------------->
+    <div class="navbar-center">
+      <ul>
+        <li><a href="#" class="active-link">
+            <img src="images/home.png">
+            <span>Home</span>
+          </a></li>
+        <li><a href="#">
+            <img src="images/network.png">
+            <span>My Network</span>
+          </a></li>
+        <li><a href="#">
+            <img src="images/jobs.png">
+            <span>Jobs</span>
+          </a></li>
+        <li><a href="#">
+            <img src="images/message.png">
+            <span>Messaging</span>
+          </a></li>
+        <li><a href="#">
+            <img src="images/notification.png">
+            <span>Notifications</span>
+          </a></li>
+      </ul>
+    </div>
+    <!-----------Navbar-Right--------------->
+    <div class="navbar-right">
+      <div class="online">
+        <img src="images/User_1.1.png" class="nav-profile-img" onclick="toggleMenu()">
+      </div>
+    </div>
+    <!-- -------------------Profile-drop-Down-Menu------ -->
+    <div class="profile-menu-wrap" id="profileMenu">
+      <div class="profile-menu">
+        <div class="user-info">
+          <img src="images/User_1.1.png">
+          <div>
+            <h3>Ali Asgharinya</h3>
+            <a href="#">See your profile</a>
+          </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+          <img src="images/feedback.png">
+          <p>Give Feedback</p>
+          <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+          <img src="images/setting.png">
+          <p>Setting & Privacy</p>
+          <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+          <img src="images/help.png">
+          <p>Help & Support</p>
+          <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+          <img src="images/display.png">
+          <p>Display & Accessibility</p>
+          <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+          <img src="images/logout.png">
+          <p>Logout</p>
+          <span>></span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- -------------Navbar End--------------------- -->
+  <!-- ---------------Container----------------- -->
+ <div class="container">
+  <div class="profile-main"></div>
+  <div class="profile-sidebar"></div>
+ </div>
+<!-- -----Toggle Menu----- -->
+<script>
+  let profileMenu = document.getElementById('profileMenu');
+  function toggleMenu() {
+    profileMenu.classList.toggle('open-menu');
+  }
+</script>
+
+</body>
+
+</html>
