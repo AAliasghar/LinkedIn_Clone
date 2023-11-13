@@ -533,3 +533,12 @@ a {
   margin-right: 15px;
 }
 /* ---------------------Profile-Page------------------ */
+.profile-main{
+  flex-basis: 73%;
+}
+.profile-sidebar{
+  flex-basis: 25%;
+  align-self: flex-start;
+  position: sticky;
+  top: 73%;
+}
