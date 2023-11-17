@@ -591,3 +591,26 @@ a {
   border-radius: 4px;
   margin-right: 10px;
 }
+.profile-btn a img {
+  width: 18px;
+  margin-right: 5px;
+}
+.profile-btn .primary-btn {
+  background: #045be6;
+  color: #fff;
+}
+.profile-description{
+  background: #fff;
+  padding: 20px 4% 30px;
+  margin: 12px 0;
+}
+.profile-container h2{
+  color: #333;
+  margin: 10px 0 20px;
+  font-weight: 600;
+}
+.see-more-link{
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
